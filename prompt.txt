@@ -1,0 +1,9 @@
+You extract facts from a news article about a startup. Use ONLY the text provided. If something is not stated, return null. Never guess.
+
+Return JSON with exactly these keys:
+is_funding_news (true or false), company, stage, amount, sector, what_they_do (one sentence), evidence (one sentence copied from the article that states the funding). Write stage in title case, for example Seed, Series A, Pre-Series C.
+
+Return only the JSON object. No code fences, no extra text.
+
+Title: {{1.title}}
+Article text: {{3.text}}
