@@ -114,7 +114,7 @@ I have **not yet measured accuracy on a larger sample**, so please treat the ext
 - [`site/index.html`](site/index.html): the web page (it reads from a public Lambda URL, which is not included here).
 - [`aws/lambda_function.py`](aws/lambda_function.py): the Lambda function (bucket name replaced with a placeholder).
 - [`aws/`](aws): the two minimal IAM policies (bucket name replaced with a placeholder).
-- [`make/Startup_Funding_Tracker_Workflow.REDACTED.blueprint.json`](make/Startup_Funding_Tracker_Workflow.REDACTED.blueprint.json): the Make.com collect scenario, with IDs and personal details removed. It is for reading, not for direct import.
+-  [`Startup_Funding_Tracker_Workflow.REDACTED.blueprint.json`](Startup_Funding_Tracker_Workflow.REDACTED.blueprint.json): the Make.com collect scenario, with IDs and personal details removed. It is for reading, not for direct import.
 - Screenshots at the top level: both Make scenarios, the Google Sheet, a Telegram alert and the live page.
 
 ## Tools
