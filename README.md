@@ -41,7 +41,7 @@ flowchart LR
 
 **Scenario 2: publish (Make.com + AWS + Cloudflare)**
 
-![Scenario 2: publish](MakeScenario2_Dashboard_Project1.png)
+![Scenario 2: publish](MakeScenario2_Dashboard_Project1.png.png)
 
 1. Make reads the latest rows from the Sheet and writes them as one file, `funding.json`, into a private AWS S3 bucket.
 2. An AWS Lambda function reads that file and returns it from a public URL. The bucket itself is never public.
